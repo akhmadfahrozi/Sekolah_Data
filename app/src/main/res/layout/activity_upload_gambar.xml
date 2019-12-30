@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".upload_gambar">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imagePreview"
+        android:scaleType="centerCrop"/>
+    <EditText
+        android:id="@+id/id_Murid1"
+        android:layout_width="match_parent"
+        android:hint="id_murid"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+    <EditText
+        android:id="@+id/namamurid"
+        android:layout_width="match_parent"
+        android:hint="nama murid"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+    <EditText
+        android:id="@+id/jk1"
+        android:layout_width="match_parent"
+        android:hint="jk"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+    <EditText
+        android:id="@+id/kelas1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="kelas"
+        android:layout_gravity="left" />
+    <EditText
+        android:id="@+id/alamat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="alamatd"
+        android:layout_gravity="left" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="BUKA FIE MANAgER"
+        android:id="@+id/filePicker"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUKA FIE MANAgER"
+        android:id="@+id/upload_file"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="upload"
+        android:id="@+id/camera"/>
+
+
+</LinearLayout>
